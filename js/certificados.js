@@ -1,8 +1,8 @@
 function search() {
     var cpf = document.getElementById('inputCPF').value;
-    // console.log(cpf);
     validation(cpf);
 }
+
 
 function validation(cpfValue){
     var storage = firebase.storage();
@@ -18,6 +18,19 @@ function validation(cpfValue){
         console.log('ERRO', error);
     });
 }
+
+
+function next(cpfValue){
+    document.getElementById('busca').setAttribute("class", "ocultar");
+    document.getElementById('resultado').removeAttribute("class", "ocultar");
+}
+
+function back(){
+    document.getElementById('busca').removeAttribute("class", "ocultar");
+    document.getElementById('resultado').setAttribute("class", "ocultar");
+    document.getElementById('inputCPF').value = '';
+}
+
 
 function listFiles(cpfValue){
     document.getElementById('tituloDocumentos').innerHTML = 'Certificados de: '+cpfValue;
@@ -45,15 +58,4 @@ function listFiles(cpfValue){
             
         }
     });
-}
-
-function next(cpfValue){
-    document.getElementById('busca').setAttribute("class", "ocultar");
-    document.getElementById('resultado').removeAttribute("class", "ocultar");
-}
-
-function back(){
-    document.getElementById('busca').removeAttribute("class", "ocultar");
-    document.getElementById('resultado').setAttribute("class", "ocultar");
-    document.getElementById('inputCPF').value = '';
 }
