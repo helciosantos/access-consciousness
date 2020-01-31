@@ -607,7 +607,7 @@ header.masthead .intro-text .intro-heading {
 
 .mantra{
   height: 100%;
-  padding-top: 13rem !important;
+  padding-top: 17rem !important;
   background-image: url('../img/mantra-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -616,7 +616,8 @@ header.masthead .intro-text .intro-heading {
 
 .mantra-bg{
   height: 100%;
-  padding-top: 13rem !important;
+  /* padding-top: 30rem !important;
+  padding-right: 20rem !important; */
   background-image: url('../img/bg-mantra-all.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -626,8 +627,8 @@ header.masthead .intro-text .intro-heading {
 @media(max-width: 570px){
   .mantra{
     height: 80% !important;
-    padding-top: 12rem !important;
-    padding-right: 20rem !important;
+    /* padding-top: 12rem !important;
+    padding-right: 20rem !important; */
     background-image: url('../img/mantra-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -638,7 +639,7 @@ header.masthead .intro-text .intro-heading {
 @media(min-width: 570px){
   .mantra{
     height: 70%;
-    padding-top: 13rem !important;
+    /* padding-top: 13rem !important; */
     background-image: url('../img/mantra-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -649,8 +650,8 @@ header.masthead .intro-text .intro-heading {
 @media(min-width: 650px){
   .mantra{
     height: 50% !important;
-    padding-top: 14rem !important;
-    padding-right: 20rem !important;
+    /* padding-top: 14rem !important;
+    padding-right: 20rem !important; */
     background-image: url('../img/mantra-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -661,8 +662,8 @@ header.masthead .intro-text .intro-heading {
 @media(min-width: 700px){
   .mantra{
     height: 50% !important;
-    padding-top: 15rem !important;
-    padding-right: 20rem !important;
+    /* padding-top: 15rem !important;
+    padding-right: 20rem !important; */
     background-image: url('../img/mantra-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -673,8 +674,8 @@ header.masthead .intro-text .intro-heading {
 @media(min-width: 765px){
   .mantra{
     height: 50% !important;
-    padding-top: 17rem !important;
-    padding-right: 20rem !important;
+    /* padding-top: 17rem !important;
+    padding-right: 20rem !important; */
     background-image: url('../img/mantra-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -685,8 +686,8 @@ header.masthead .intro-text .intro-heading {
 @media(min-width: 865px){
   .mantra{
     height: 50% !important;
-    padding-top: 19rem !important;
-    padding-right: 20rem !important;
+    /* padding-top: 19rem !important;
+    padding-right: 20rem !important; */
     background-image: url('../img/mantra-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -697,8 +698,8 @@ header.masthead .intro-text .intro-heading {
 @media(min-width: 965px){
   .mantra{
     height: 50% !important;
-    padding-top: 25rem !important;
-    padding-right: 20rem !important;
+    /* padding-top: 25rem !important;
+    padding-right: 20rem !important; */
     background-image: url('../img/mantra-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -709,8 +710,8 @@ header.masthead .intro-text .intro-heading {
 @media(min-width: 965px){
   .mantra{
     height: 50% !important;
-    padding-top: 30rem !important;
-    padding-right: 20rem !important;
+    /* padding-top: 30rem !important;
+    padding-right: 20rem !important; */
     background-image: url('../img/mantra-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
