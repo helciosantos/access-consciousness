@@ -55,7 +55,6 @@ function listFiles(cpfValue){
             }).catch(function(error){
                 console.log(error);
             });
-            
         }
     });
 }

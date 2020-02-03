@@ -11,6 +11,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/icon/access-icon.png">
   <title>Barras de Accesss</title>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156928274-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-156928274-1');
+  </script>
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -163,8 +173,7 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <h4>Venha
-                  <br>conhecer!</h4>
+                <h4>Venha <br>conhecer <br>o Access!</h4>
               </div>
             </li>
           </ul>
@@ -173,7 +182,12 @@
     </div>
   </section>
 
-
+  <!-- <section class="container" id="video">
+    <div class="mantra col-md-8 center embed-responsive embed-responsive-16by9 float-left">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kfpAsgWluis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+      picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section> -->
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
@@ -209,7 +223,7 @@
             <img class="img-fluid" src="img/portfolio/thumbnail/2.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Explore</h4>
+            <h4>Barras de Access</h4>
             <p class="text-muted">Graphic Design</p>
           </div>
         </div>
@@ -280,17 +294,18 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Serviços</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">Encontre aqui o que oferecemos para vocês.</h3>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <!-- <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
+            <i class="fas fa-hand-holding-heart fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Troca de Barras</h4>
+          <p class="text-muted">Aqui você pode marcar um horário com outro praticante para poderem correrem suas barras.</p>
         </div>
         <div class="col-md-4">
           <!-- <button data-toggle="modal" data-target="#certificadoModal">
@@ -307,10 +322,11 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            <!-- <i class="fas fa-lock fa-stack-1x fa-inverse"></i> -->
+            <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Palestras</h4>
+          <p class="text-muted">Podemos organizar palestras sobre o Access, como ele funciona e como pode melhorar sua vida.</p>
         </div>
       </div>
     </div>
@@ -340,7 +356,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="icon" href="#">
+                <a class="icon" href="https://pt-br.facebook.com/andre.dorea.58">
                   <i class="fab fa-facebook-f text-white"></i>
                 </a>
               </li>
@@ -458,10 +474,6 @@
       </div>
     </div>
   </section>
-
-
-  <!-- Access Mantra -->
-  <section class="page-section mantra embed-responsive" id="certificados"></section>
 
 
   <!-- Footer -->
@@ -714,27 +726,27 @@
   <!-- Certificados Modal  -->
   <div class="portfolio-modal modal fade" id="certificadoModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content certificado-bg">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
             <div class="rl"></div>
           </div>
         </div>
         <section class="container">
-          <div class="row mt-5">
-              <h1 class="col-md-12 center">Certificados</h1>
+          <div class="row">
+              <h1 class="col-md-12 center text-primary">Certificados</h1>
           </div>
-          <div class="row mt-4">
+          <div class="row mt-2">
               <div class="col-md-12 center embed-responsive" id="busca">
                   <input type="text" placeholder="Digite o CPF" id="inputCPF">
-                  <button onclick="search()">PESQUISAR</button>
+                  <button class="mr-5 mb-3" onclick="search()">PESQUISAR</button>
               </div>
-              <div class="col-md-12 center ocultar mt-5" id="resultado"> 
+              <div class="col-md-12 center ocultar text-primary" id="resultado"> 
                   <h3 class="center font" id="tituloDocumentos"></h3>
                   <ul id="list">
 
                   </ul>
-                  <button class="center" onclick="back()"><i class="fas fa-undo"></i></button>
+                  <button class="center mb-3" onclick="back()"><i class="fas fa-undo"></i></button>
               </div>
           </div>
         </section>
@@ -752,11 +764,13 @@
   <!-- Contact form JavaScript -->
   <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
-  <!-- <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
   <script src="js/initFirebase.js"></script>
   <script src="js/certificados.js"></script>
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/contact_me.js"></script>
+
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>

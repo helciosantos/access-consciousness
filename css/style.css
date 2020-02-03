@@ -18,6 +18,14 @@ a {
   color: #3498db;
 }
 
+.ocultar{
+  display: none;
+}
+
+.aparecer{
+  display: block;
+}
+
 a:hover {
   color: rgba(54, 241, 254, 0.9) !important;
   text-decoration: none;
@@ -29,6 +37,17 @@ a:hover {
 
 .icon:hover{
   background-color: rgba(54, 241, 254, 0.9) !important;
+}
+
+.certificado-bg{
+  background-image: url('../img/certificado-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  text-align: center !important;
+  /* text-decoration-line: underline;
+  text-decoration-color: #3498db; */
 }
 
 .text{
@@ -371,6 +390,7 @@ header.masthead .intro-text .intro-heading {
   height: 75px;
   cursor: pointer;
   background-color: transparent;
+  color: white !important;
 }
 
 .portfolio-modal .close-modal:hover {
