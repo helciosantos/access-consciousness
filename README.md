@@ -15,6 +15,5 @@ Projeto para profissionais do Access Consciousness
 
 ## Desenvolvedor: 
 **Hélcio K. dos Santos Lopes**
-Desenvolvedor Web & Mobile
-
- - [ ] [Contato]([https://helciosantos.github.io/link-me/](https://helciosantos.github.io/link-me/))  
+Desenvolvedor Web & Mobile  
+ - [ ] [Contato](https://helciosantos.github.io/link-me/)
